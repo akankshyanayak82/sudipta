@@ -1,0 +1,109 @@
+.maindiv1{
+    background-color: rgb(229, 95, 71);
+    padding: 20px;
+}
+.linkstyle{
+    display: block;
+    background-color: rgb(132, 192, 244);
+    margin: 50px;
+    height: 60px;
+    width: 40px;
+}
+.pagination li{
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid navy;
+    padding: 10px;
+    background-color: rgb(107, 240, 240);
+}
+.pagination li a{
+    color: rgb(5, 92, 92);
+    text-decoration: none;
+}
+table{
+    border: 2px solid rgb(240, 101, 101);
+    border-collapse: collapse;
+    /*border-collapse: separate;*/
+    width: 45%;
+    display: inline-table;
+    margin: 20px;
+}
+th,td{
+    border: 2px solid rgb(240, 101, 101);
+    height: 100px;
+    text-align: center;
+    vertical-align: top;
+    vertical-align: bottom;
+    vertical-align: middle;
+}
+th{
+    background-color: rgb(175, 231, 212);
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: black;
+}
+/*tr:nth-child(2){
+    background-color: rgb(158, 101, 211);
+}*/
+tr:nth-child(even){
+    background-color: rgb(158, 101, 211);
+    text-decoration: underline;
+    font-size: 20px; 
+    color: rgb(75, 7, 7); 
+}
+tr:nth-child(odd){
+    background-color: rgb(239, 95, 162);
+    font-size: 20px;
+    color: rgb(5, 34, 122);
+}
+tr:nth-child(even):hover{
+background-color:rgb(247, 174, 247) ;
+}
+tr:nth-child(odd):hover{
+    background-color: rgb(230, 148, 148);
+}
+.maindiv2{
+    background-color: rgb(64, 210, 127);
+    border: 3px groove rgb(112, 160, 14);
+    margin: 20px;
+    font-size: 30px;
+    padding: 20px;
+    height: 400px;
+    text-align: center; /*both will work inside div and inside p tag also we can use maindiv2class or maindiv2 p class also*/
+   display: table;
+    width: 100%;
+}
+.maindiv2 p{
+    color: rgb(97, 12, 97);
+    vertical-align: middle;
+    /*vertical-align: bottom;*/
+   /* vertical-align: top;*/
+    display: table-cell;
+}
+body{
+    height: 3000px;
+}
+.imgstyle img{
+    height: 100px;
+    width: 200px;
+}
+.imgstyle{
+    vertical-align: middle;
+    display: table-cell
+}
+.maindiv3{
+    height: 200px;
+    width: 300px;
+    border: 3px solid rgb(146, 20, 210);
+    background-color: rgb(207, 144, 239);
+    position: relative;
+}
+.childdiv1{
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(99, 5, 99);
+    background-color: rgb(236, 170, 236);
+    position:absolute;
+    bottom: -50px;
+    right: -50px;
+}
